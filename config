@@ -1,3 +1,4 @@
+#Powerline-Shell
 function _update_ps1() {
     PS1="$(~/powerline-shell/powerline-shell.py $? 2> /dev/null)"
 }

@@ -20,6 +20,7 @@ ______                      _ _                   _____ _          _ _
                  |_|_| |_|___/\__\__,_|_|_|\___|_|
 
 EOF
+cp config ~/
 
 #go to home
 cd $HOME
@@ -40,5 +41,6 @@ git clone "$powerline_fonts"
 cd fonts
 ./install.sh
 cd  $HOME
-
-echo "Now setup a profile an enjoy the powerline-shell"
+rm config
+rm -rf fonts
+echo "##### Now setup a profile an enjoy the powerline-shell #####"
